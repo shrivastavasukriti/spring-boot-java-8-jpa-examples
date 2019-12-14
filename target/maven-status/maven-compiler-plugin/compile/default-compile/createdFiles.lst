@@ -1,0 +1,4 @@
+com\sukriti\backend\billingorder\repository\OrderRpository.class
+com\sukriti\backend\billingorder\controller\OrderController.class
+com\sukriti\backend\billingorder\application\Application.class
+com\sukriti\backend\billingorder\entity\Order.class
