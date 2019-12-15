@@ -12,7 +12,7 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
-@Table(name="order_table")
+@Table(name="order")
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Order implements Serializable{
 
@@ -23,7 +23,7 @@ public class Order implements Serializable{
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.SEQUENCE)
-	private int id;
+	private Integer id;
 	@Column(name="order_name")
 	private String orderName;
 	@Column(name="order_type")
