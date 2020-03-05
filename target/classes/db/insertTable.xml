@@ -5,14 +5,14 @@
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
 	<changeSet author="root" id="1">
-		<insert tableName="order">
+		<insert tableName="order_table">
 			<column name="id" valueNumeric="1" />
 			<column name="order_name" value="Oreo" />
 			<column name="order_type" value="Biscuits" />
 		</insert>
 
 
-		<insert tableName="order">
+		<insert tableName="order_table">
 		    <column name="id" valueNumeric="2" />
 			<column name="order_name" value="Banana" />
 			<column name="order_type" value="Fruit" />

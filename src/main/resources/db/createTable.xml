@@ -5,7 +5,7 @@
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
 	<changeSet author="root" id="1">
-		<createTable tableName="order" remarks="A table to contain all the orders">
+		<createTable tableName="order_table" remarks="A table to contain all the orders">
 			<column name="id" type="int">
 				<constraints nullable="false" primaryKey="true" />
 			</column>
